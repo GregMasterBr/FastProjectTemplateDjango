@@ -1,6 +1,6 @@
-# Django-boilerplate with App Core Configured - HBNetwork
+# Fast Started Django Project
 
-Following the instructions bellow to create a fast project Django configured with a app core.
+Following the instructions bellow to create a fast project Django configured with a app core and using bootstrap.
 
 ### Deploy a fully configured Django Application the fastest way!
 
@@ -41,10 +41,10 @@ python -m pip install --upgrade pip
 pip install django
 ```
 
-Now we can pull Django Boilerplate Structure to Project 
+Now we can pull Fast Project Template Django's Structure to Project 
 
 ```
-django-admin startproject --template https://github.com/HBNetwork/django-boilerplate/archive/main.zip --name=.env,pytest.ini  myproject .
+django-admin startproject --template https://github.com/GregMasterBr/FastProjectTemplateDjango/archive/main.zip --name=.env,pytest.ini  myproject .
 ```
 
 
@@ -68,9 +68,7 @@ pip install -r requirements-dev.txt
 - python manage.py collectstatic  
 
 ## Future possibilities
-- Poetry
 - Containers (Docker)
-- Bootstrap (5.2)
 - Pre-commit hooks
 - Github actions
 
