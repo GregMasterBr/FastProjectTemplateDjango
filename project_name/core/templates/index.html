@@ -12,5 +12,14 @@
     <h1>Seja bem-vindo a home</h1>
     <p> Hello World</p> 
     <hr style="background-color: gray;" />    
+
+    {% if messages %}
+        {% for message in messages %}
+        <br>
+            <section class="alert {{message.tags}}">
+                {{message}}
+            </section>
+        {% endfor %}
+    {% endif %}
 </div>    
 {% endblock %}
