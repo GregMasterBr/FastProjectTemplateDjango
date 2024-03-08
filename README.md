@@ -1,11 +1,11 @@
 # Fast Started Django Project
 
-Following the instructions bellow to create a fast project Django configured with a app core and using bootstrap.
+Following the instructions bellow to create a fast project Django (version 5) configured with a app core and using bootstrap (version 5).
 
 ### Deploy a fully configured Django Application the fastest way!
 
 This template includes:
-* Django version: 4.1.x
+* [Django version](https://www.djangoproject.com/download/): 5.0.x
 * Easy settings setup with [Decouple](https://github.com/hbnetwork/python-decouple)  
 * Use of URL's to manage database access : [dj-database-url](https://github.com/jazzband/dj-database-url)  
 * [Black] (https://github.com/psf/black) 
